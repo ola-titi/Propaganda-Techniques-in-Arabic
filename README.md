@@ -5,11 +5,21 @@ The dataset provided as tab speareated file containing the article id, propagand
 
 The data divided into 5,114 training, 927 development, and 1,439 testing.<br>
 
-The English news articles can be found [here](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) and described in: <br><br>
+The English news articles can be found [here](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) and described in the paper: <br><br>
 
-'''
-@misc{da2019fine,
-  title={Fine-grained analysis of propaganda in news article}, author ={Da San Martino, Giovanni and Yu, Seunghak and Barr{'o}n-Cedeno, Alberto and Petrov, Rostislav and Nakov, Preslav}, booktitle ={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}, pages={5640--5650}, year ={2019}} 
-'''
+
+## BibText
+```
+@article{da2019fine,
+  title={Fine-Grained Analysis of Propaganda in News Articles},
+  author={Da San Martino, Giovanni and Yu, Seunghak and Barr{\'o}n-Cede{\~n}o, Alberto and Petrov, Rostislav and Nakov, Preslav},
+  journal={arXiv e-prints},
+  pages={arXiv--1910},
+  year={2019}
+}
+```
+
+
 
 ## Acknowledgment
+I would to thank [Propaganda Analysis Project (PAP)](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) for their support and giving us the English propaganda dataset. 
