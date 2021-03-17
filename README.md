@@ -1,5 +1,5 @@
 # Propganda-Techniques-in-Arabic
-## This is the first propaganda techniques datset for the Arabic language. 
+## This is the first propaganda techniques dataset for the Arabic language. 
 
 The dataset provided as tab speareated file containing the article id, propaganda techniqe, begin and offsets for each propaganda span.<br> 
 
