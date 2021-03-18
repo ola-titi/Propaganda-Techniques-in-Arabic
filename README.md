@@ -9,7 +9,7 @@ The Arabic propaganda techniques dataset is based on [Fine-Grained Analysis of P
 To the best of our knowledge, there is no Arabic dataset publicly available for propaganda techniques. The provided dataset has 7k propaganda spans and consists of three files: train, validation, and test file. Each file provided as a tab separated file containing the article id, propaganda technique (one out of 18 propaganda techniques), begin and offsets for each propaganda span.<br> 
 
 ## Evaluation 
-The task will be evaluated using Micro-Average F1 score
+The task will be evaluated using Micro-Average F1 score.
 
 ## Model
 We provided a baseline model by fine-tuning AraBERT to classify propaganda techniques and it achieved 60% F1 Score.
@@ -19,10 +19,7 @@ We provided a baseline model by fine-tuning AraBERT to classify propaganda techn
 One of our goals was to detect the most commonly used propaganda techniques in news articles related to the coronavirus (COVID-19) pandemic. Consequently, we have collected 44 news articles from three well known Arabic news outlets, namely Al Arabiya (25 articles), Al Aljazeera  (15 articles), and BBC (4 articles) manually from the official websites from March 1, 2020, until March 30, 2020. Furthermore, 200 spans have been extracted manually from the articles based on local judgments that the spans have a high probability of being propaganda. Then all extracted spans have been saved in a text file.
 
 ## License
-
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by](http://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a Creative Commons Zero v1.0 Universal License.
 
 
 ## BibText
