@@ -10,6 +10,10 @@ To the best of our knowledge, there is no Arabic dataset publicly available for 
 
 ## Evaluation 
 The task will be evaluated using Micro-Average F1 score
+
+## Model
+We provided a baseline model by fine-tuning AraBERT to classify propaganda techniques and it achieved 60% F1 Score.
+
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
