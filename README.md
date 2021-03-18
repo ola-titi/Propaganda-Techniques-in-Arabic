@@ -14,6 +14,10 @@ The task will be evaluated using Micro-Average F1 score
 ## Model
 We provided a baseline model by fine-tuning AraBERT to classify propaganda techniques and it achieved 60% F1 Score.
 
+
+## COVID-19 Dataset
+We have collected 44 news articles from three well known Arabic news outlets, namely Al Arabiya (25 articles), Al Aljazeera  (15 articles), and BBC (14 articles) manually from the official websites from March 1, 2020 until March 30, 2020. Furthermore, 200 spans have been extracted manually from the articles based on local judgments that the spans have a high probability of being propaganda. Then all extracted spans have been saved in a CSV file.
+
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
