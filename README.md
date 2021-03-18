@@ -19,16 +19,11 @@ We provided a baseline model by fine-tuning AraBERT to classify propaganda techn
 One of our goals was to detect the most commonly used propaganda techniques in news articles related to the coronavirus (COVID-19) pandemic. Consequently, we have collected 44 news articles from three well known Arabic news outlets, namely Al Arabiya (25 articles), Al Aljazeera  (15 articles), and BBC (4 articles) manually from the official websites from March 1, 2020, until March 30, 2020. Furthermore, 200 spans have been extracted manually from the articles based on local judgments that the spans have a high probability of being propaganda. Then all extracted spans have been saved in a text file.
 
 ## License
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
 
 This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
+[Creative Commons Attribution 4.0 International License][cc-by](http://creativecommons.org/licenses/by/4.0/)
 
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 ## BibText
 ```
