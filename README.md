@@ -16,7 +16,7 @@ We provided a baseline model by fine-tuning AraBERT to classify propaganda techn
 
 
 ## COVID-19 Dataset
-We have collected 44 news articles from three well known Arabic news outlets, namely Al Arabiya (25 articles), Al Aljazeera  (15 articles), and BBC (14 articles) manually from the official websites from March 1, 2020 until March 30, 2020. Furthermore, 200 spans have been extracted manually from the articles based on local judgments that the spans have a high probability of being propaganda. Then all extracted spans have been saved in a text file.
+We have collected 44 news articles from three well known Arabic news outlets, namely Al Arabiya (25 articles), Al Aljazeera  (15 articles), and BBC (4 articles) manually from the official websites from March 1, 2020 until March 30, 2020. Furthermore, 200 spans have been extracted manually from the articles based on local judgments that the spans have a high probability of being propaganda. Then all extracted spans have been saved in a text file.
 
 ## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
