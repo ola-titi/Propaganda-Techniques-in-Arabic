@@ -1,25 +1,23 @@
-# Propganda-Techniques-in-Arabic
-## This is the first propaganda techniques dataset for the Arabic language. 
+# Arabic-Dataset-for-Propaganda-Techniques-Detection
 
-The dataset provided as tab speareated file containing the article id, propaganda techniqe, begin and offsets for each propaganda span.<br> 
+## Inroduction 
+Propaganda has been used on social media and online news articles to convince readers to accept biased or false beliefs and ideologies. It is usually used to manipulate citizens' public opinion and influence their attitudes by using psychological and rhetorical techniques, which appeal to the emotions of the audience and use logical fallacies. The detection of propaganda techniques in news articles is the initial step toward limiting the use of propaganda and increase people' aware that online news could be shaped to manipulate their thoughts.
 
-The data divided into 5,114 training, 927 development, and 1,439 testing.<br>
+## Dataset
+The Arabic propaganda techniques dataset is based on [Fine-Grained Analysis of Propaganda in News Articles](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html). The dataset provided as news articles where each article contains a list of propaganda techniques and each technique is assoisated with a span in the article. We translated the original English propaganda spans into Arabic. <br>
 
-The English news articles can be found [here](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) and described in the paper: <br><br>
+To the best of our knowledge, there is no Arabic dataset publicly available for propganda techniques. The provided dataset has 7k propaganda spans and consists of three files: train, validation, and test file. Each file provided as a tab speareated file containing the article id, propaganda techniqe (one out of 18 propaganda techniques), begin and offsets for each propaganda span.<br> 
+
+## Evaluation 
+The task will be evaluated using Micro-Average F1 score
+## License
 
 
 ## BibText
 ```
-@article{da2019fine,
-  title={Fine-Grained Analysis of Propaganda in News Articles},
-  author={Da San Martino, Giovanni and Yu, Seunghak and Barr{\'o}n-Cede{\~n}o, Alberto and Petrov, Rostislav and Nakov, Preslav},
-  journal={arXiv e-prints},
-  pages={arXiv--1910},
-  year={2019}
-}
+
 ```
 
 
-
 ## Acknowledgment
-I would to thank [Propaganda Analysis Project (PAP)](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) for their support and giving us the English propaganda dataset. 
+Special thank to [Propaganda Analysis Project (PAP)](https://propaganda.qcri.org/fine-grained-propaganda-emnlp.html) for their support and giving us the English propaganda dataset. 
